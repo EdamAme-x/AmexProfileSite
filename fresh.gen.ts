@@ -10,13 +10,12 @@ import * as $4 from "./routes/contact.tsx";
 import * as $5 from "./routes/index.tsx";
 import * as $6 from "./routes/info.tsx";
 import * as $7 from "./routes/posts/[id].tsx";
-import * as $8 from "./routes/server/apis/GetTweetAPI.ts";
-import * as $9 from "./routes/tool/index.tsx";
-import * as $10 from "./routes/tool/report/index.tsx";
-import * as $11 from "./routes/tool/tashiro/atk/[name].tsx";
-import * as $12 from "./routes/tool/tashiro/index.tsx";
-import * as $13 from "./routes/tools.tsx";
-import * as $14 from "./routes/works.tsx";
+import * as $8 from "./routes/tool/index.tsx";
+import * as $9 from "./routes/tool/report/index.tsx";
+import * as $10 from "./routes/tool/tashiro/atk/[name].tsx";
+import * as $11 from "./routes/tool/tashiro/index.tsx";
+import * as $12 from "./routes/tools.tsx";
+import * as $13 from "./routes/works.tsx";
 import * as $$0 from "./islands/Links.tsx";
 import * as $$1 from "./islands/Skills.tsx";
 import * as $$2 from "./islands/Tools.tsx";
@@ -24,7 +23,6 @@ import * as $$3 from "./islands/Works.tsx";
 import * as $$4 from "./islands/blog/BlogList.tsx";
 import * as $$5 from "./islands/client/atk.tsx";
 import * as $$6 from "./islands/client/report.tsx";
-import * as $$7 from "./islands/client/visit.tsx";
 
 const manifest = {
   routes: {
@@ -51,7 +49,6 @@ const manifest = {
     "./islands/blog/BlogList.tsx": $$4,
     "./islands/client/atk.tsx": $$5,
     "./islands/client/report.tsx": $$6,
-    "./islands/client/visit.tsx": $$7,
   },
   baseUrl: import.meta.url,
 };

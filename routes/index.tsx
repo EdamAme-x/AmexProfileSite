@@ -3,8 +3,6 @@ import Skills from "~/islands/Skills.tsx";
 import Links from "~/islands/Links.tsx";
 
 import { useEffect } from "preact/hooks";
-import Visit from "~/islands/client/visit.tsx";
-
 import Particle from "~/components/WebGL.tsx";
 
 export default function index() {
@@ -81,7 +79,6 @@ function Index() {
             <Links />
           </div>
 
-          <Visit />
         </div>
       </div>
     </div>
