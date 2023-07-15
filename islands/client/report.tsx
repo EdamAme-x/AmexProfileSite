@@ -8,7 +8,6 @@ export default function report() {
 
   function convert() {
     if (
-      link.replace("オープンチャット", "") !== link ||
       link.replace("ti/g2", "") == link
     ) {
       alert(
