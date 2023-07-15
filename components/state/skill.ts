@@ -67,7 +67,7 @@ let skill: Skill[] = [
         color: "bg-blue-600"
     },
     {
-        name: "Visual Studio",
+        name: "VStudio",
         status: 2.25,
         icon: "/skill/vstudio.svg",
         color: "bg-purple-600"
