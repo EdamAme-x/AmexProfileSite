@@ -17,7 +17,7 @@ export default function report() {
       // convert
       let hash: string | string[] = link.split("/");
       hash = hash[hash.length - 1];
-      const linkers = "line://square/report?ticket=" + hash;
+      const linkers = "line://square/report?ticket=" + hash + "&by=amex-@macl2189";
       setLinker(linkers);
     }
   }
