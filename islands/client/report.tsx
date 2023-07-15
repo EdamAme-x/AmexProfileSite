@@ -7,9 +7,7 @@ export default function report() {
   const [linker, setLinker] = useState<string>("");
 
   function convert() {
-    if (
-      link.replace("ti/g2", "") == link
-    ) {
+    if (link.replace("ti/g2", "") == link) {
       alert(
         "不正なURLの可能性が有ります。オープンチャットのURLのみを記述して下さい。"
       );
@@ -17,7 +15,13 @@ export default function report() {
       // convert
       let hash: string | string[] = link.split("/");
       hash = hash[hash.length - 1];
-      const linkers = "line://square/report?ticket=" + hash.replace("?utm_source=invitation&utm_medium=link_copy&utm_campaign=default","") + "?by=amex-@macl2189";
+      const linkers =
+        "line://square/report?ticket=" +
+        hash.replace(
+          "?utm_source=invitation&utm_medium=link_copy&utm_campaign=default",
+          ""
+        ) +
+        "&by=amex-@macl2189";
       setLinker(linkers);
     }
   }
