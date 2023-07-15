@@ -16,8 +16,7 @@
     "$std/": "https://deno.land/std@0.190.0/",
     "Layout": "./components/Layout.tsx",
     "~/": "./",
-    "util/": "./util/",
-    "python": "https://deno.land/x/python@0.2.4/mod.ts"
+    "util/": "./util/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
