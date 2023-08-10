@@ -11,6 +11,7 @@ export default function Layout(props: any) {
       >
         <title>Ame'x Door</title>
         <meta name="description" content="Ame'x Door / Profile Site" />
+        <meta name="google-site-verification" content="ecaqPuUOXzHhc_098hQOPRl3JXJ9CIKQ4ompf0mRKYc" />
 
         <meta name="robots" content="index, follow" />
         <meta name="google" content="notranslate" />
